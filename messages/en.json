@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "siteName": "Lumière Dental Dubai",
+    "home": {
+      "title": "Lumière Dental Dubai — Premium Dental Clinic in Dubai Healthcare City",
+      "description": "DHA-licensed premium dental clinic in Dubai Healthcare City. Teeth whitening, implants, Invisalign, veneers, kids dentistry and same-day emergency care. Rated 4.9 on Google."
+    },
+    "services": {
+      "title": "Dental Treatments & Prices",
+      "description": "Explore teeth whitening, dental implants, Invisalign, porcelain veneers, kids dentistry and emergency care at Lumière Dental Dubai — with transparent prices from AED 250."
+    },
+    "doctors": {
+      "title": "Our Dentists",
+      "description": "Meet the internationally trained, DHA-licensed specialists at Lumière Dental Dubai — prosthodontics, implantology, orthodontics and paediatric dentistry."
+    },
+    "booking": {
+      "title": "Book an Appointment",
+      "description": "Book your dental appointment online in under a minute. Choose your treatment, dentist and time at Lumière Dental Dubai."
+    },
+    "contact": {
+      "title": "Contact & Location",
+      "description": "Find Lumière Dental in Dubai Healthcare City. Call, WhatsApp or email us — open seven days a week."
+    },
+    "notFound": {
+      "title": "Page not found"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "doctors": "Doctors",
+    "booking": "Book",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "skip": "Skip to content",
+    "switchTo": "العربية",
+    "switchToLabel": "Switch language to Arabic",
+    "themeToggle": "Toggle dark mode"
+  },
+  "common": {
+    "bookAppointment": "Book Appointment",
+    "whatsapp": "WhatsApp Us",
+    "whatsappMessage": "Hello Lumière Dental, I'd like to book an appointment.",
+    "whatsappFloating": "Chat with us on WhatsApp",
+    "learnMore": "Learn more",
+    "viewAllServices": "View all services",
+    "meetTheTeam": "Meet the team",
+    "from": "From",
+    "currency": "AED",
+    "duration": "Duration",
+    "callUs": "Call us",
+    "emailUs": "Email us",
+    "getDirections": "Get directions",
+    "opensInNewTab": "(opens in a new tab)"
+  },
+  "hero": {
+    "eyebrow": "Dubai Healthcare City",
+    "title": "Dentistry, <em>beautifully</em> calm.",
+    "subtitle": "Internationally trained specialists, digital precision and a spa-like setting — for smiles that look natural and feel effortless.",
+    "imageAlt": "Bright, minimal treatment room at Lumière Dental Dubai",
+    "nextAvailable": "Next available",
+    "nextAvailableValue": "Today · 4:30 PM",
+    "patients": "12,000+ smiles cared for"
+  },
+  "trust": {
+    "dha": "DHA Licensed",
+    "dhaSub": "Dubai Health Authority",
+    "rating": "{rating} Google rating",
+    "ratingSub": "{count}+ verified reviews",
+    "years": "{years}+ years",
+    "yearsSub": "Caring for Dubai"
+  },
+  "servicesSection": {
+    "eyebrow": "Treatments",
+    "title": "Everything your smile needs, <em>under one roof</em>.",
+    "subtitle": "From a quick polish to a full smile makeover, every treatment is planned digitally and delivered with care."
+  },
+  "beforeAfter": {
+    "eyebrow": "Real results",
+    "title": "Subtle changes, <em>remarkable</em> difference.",
+    "subtitle": "Drag the handle to compare. A single whitening session followed by minimal-prep porcelain veneers.",
+    "before": "Before",
+    "after": "After",
+    "sliderLabel": "Before and after comparison slider",
+    "beforeAlt": "Smile before treatment, with dull and uneven tone",
+    "afterAlt": "Smile after treatment, bright and even",
+    "disclaimer": "Illustrative demo images. Individual results vary."
+  },
+  "why": {
+    "eyebrow": "Why Lumière",
+    "title": "Care that feels <em>different</em> from the moment you arrive.",
+    "imageAlt": "Dentist reviewing a digital dental X-ray with a patient",
+    "items": {
+      "tech": {
+        "title": "Digital precision",
+        "body": "3D CBCT imaging, iTero scanning and guided surgery mean fewer surprises and faster healing."
+      },
+      "comfort": {
+        "title": "Spa-like comfort",
+        "body": "Noise-cancelling headphones, ceiling screens, warm blankets and unhurried appointments."
+      },
+      "transparent": {
+        "title": "Transparent pricing",
+        "body": "A written, itemised plan before any treatment — plus direct insurance billing and 0% instalments."
+      },
+      "specialists": {
+        "title": "Specialists, not generalists",
+        "body": "Each treatment is delivered by a dentist with advanced training in that exact field."
+      }
+    },
+    "stats": {
+      "smiles": "Smiles cared for",
+      "implants": "Implant success rate",
+      "languages": "Languages spoken"
+    }
+  },
+  "doctorsSection": {
+    "eyebrow": "Our team",
+    "title": "Meet your <em>specialists</em>.",
+    "subtitle": "Internationally trained, DHA-licensed and genuinely kind.",
+    "prev": "Previous doctor",
+    "next": "Next doctor",
+    "yearsExperience": "{years} years experience"
+  },
+  "testimonials": {
+    "eyebrow": "Patient stories",
+    "title": "Loved by <em>thousands</em> of patients.",
+    "summary": "{rating} average from {count}+ Google reviews",
+    "stars": "{rating} out of 5 stars"
+  },
+  "insurance": {
+    "title": "Direct billing with leading insurers"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions, <em>answered</em>.",
+    "subtitle": "Can't find what you're looking for? Message us on WhatsApp — we usually reply within minutes."
+  },
+  "location": {
+    "eyebrow": "Visit us",
+    "title": "In the heart of <em>Dubai Healthcare City</em>.",
+    "address": "Address",
+    "hours": "Opening hours",
+    "contact": "Contact",
+    "mapTitle": "Map showing Lumière Dental Dubai in Dubai Healthcare City",
+    "mapLoading": "Loading map…",
+    "parking": "Complimentary valet parking · 5 min from DHCC Metro"
+  },
+  "finalCta": {
+    "title": "Your calmest dental visit <em>starts here</em>.",
+    "subtitle": "Book online in under a minute, or message us on WhatsApp and we'll find a time that suits you."
+  },
+  "footer": {
+    "about": "A boutique dental clinic in Dubai Healthcare City, combining specialist expertise with calm, considered care.",
+    "explore": "Explore",
+    "treatments": "Treatments",
+    "visit": "Visit",
+    "rights": "All rights reserved.",
+    "licence": "DHA licence {licence}",
+    "demoBy": "Demo project by",
+    "social": "Follow us on {network}"
+  },
+  "servicesPage": {
+    "eyebrow": "Treatments",
+    "title": "Considered care for <em>every smile</em>.",
+    "subtitle": "Transparent pricing, specialist-led treatment and digital planning across every service we offer."
+  },
+  "serviceDetail": {
+    "breadcrumb": "Breadcrumb",
+    "priceFrom": "Price from",
+    "duration": "Duration",
+    "insurance": "Insurance",
+    "insuranceValue": "Direct billing available",
+    "benefits": "Why patients choose it",
+    "process": "How it works",
+    "step": "Step {n}",
+    "faq": "Frequently asked",
+    "specialists": "Your specialists",
+    "other": "Explore other treatments",
+    "bookThis": "Book {service}"
+  },
+  "doctorsPage": {
+    "eyebrow": "Our team",
+    "title": "Specialists who <em>listen</em> first.",
+    "subtitle": "Every Lumière dentist is DHA-licensed, internationally trained and focused on one thing: treatment you'll feel good about.",
+    "education": "Education",
+    "languages": "Languages",
+    "specialties": "Treatments",
+    "bookWith": "Book with {name}"
+  },
+  "booking": {
+    "eyebrow": "Online booking",
+    "title": "Book your <em>appointment</em>.",
+    "subtitle": "Five quick steps. No payment required — we'll confirm by phone or WhatsApp.",
+    "progress": "Step {current} of {total}",
+    "steps": {
+      "service": "Treatment",
+      "doctor": "Dentist",
+      "datetime": "Date & time",
+      "details": "Your details",
+      "confirm": "Confirm"
+    },
+    "headings": {
+      "service": "Which treatment are you interested in?",
+      "doctor": "Do you have a preferred dentist?",
+      "datetime": "When would you like to come in?",
+      "details": "How can we reach you?",
+      "confirm": "Review and confirm"
+    },
+    "anyDoctor": "No preference",
+    "anyDoctorDesc": "We'll match you with the best available specialist.",
+    "date": "Select a date",
+    "time": "Select a time",
+    "selectDateFirst": "Pick a date to see available times.",
+    "noSlots": "No more slots on this day. Please choose another date.",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "fields": {
+      "name": "Full name",
+      "phone": "Mobile number",
+      "phoneHint": "UAE or international, e.g. +971 50 123 4567",
+      "email": "Email",
+      "notes": "Anything we should know? (optional)",
+      "notesPlaceholder": "e.g. sensitivity, anxiety, insurance provider…",
+      "consent": "I agree to be contacted about this appointment."
+    },
+    "summary": {
+      "service": "Treatment",
+      "doctor": "Dentist",
+      "date": "Date & time",
+      "name": "Name",
+      "contact": "Contact",
+      "notes": "Notes",
+      "edit": "Edit"
+    },
+    "back": "Back",
+    "next": "Continue",
+    "submit": "Confirm booking",
+    "submitting": "Booking…",
+    "success": {
+      "title": "You're booked in.",
+      "body": "Thank you, {name}. We've received your request for {service} on {date} at {time}. Our team will confirm shortly by phone or WhatsApp.",
+      "reference": "Reference",
+      "addAnother": "Book another appointment",
+      "home": "Back to home"
+    },
+    "error": "Something went wrong. Please try again or message us on WhatsApp.",
+    "honeypot": "Leave this field empty"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "We'd love to <em>hear from you</em>.",
+    "subtitle": "Questions about treatment, pricing or insurance? Send us a message and we'll reply within one working day.",
+    "imageAlt": "Modern reception area of a dental clinic",
+    "form": {
+      "title": "Send a message",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending…",
+      "success": "Thank you — your message has been sent. We'll be in touch soon.",
+      "error": "We couldn't send your message. Please try WhatsApp instead."
+    }
+  },
+  "validation": {
+    "serviceRequired": "Please choose a treatment.",
+    "doctorRequired": "Please choose a dentist or “No preference”.",
+    "dateRequired": "Please select a date.",
+    "timeRequired": "Please select a time.",
+    "nameMin": "Please enter your full name.",
+    "phoneInvalid": "Please enter a valid phone number.",
+    "emailInvalid": "Please enter a valid email address.",
+    "consentRequired": "Please confirm we can contact you.",
+    "messageMin": "Please write at least 10 characters.",
+    "invalid": "Please check the highlighted fields."
+  },
+  "notFound": {
+    "title": "This page has wandered off.",
+    "body": "The page you're looking for doesn't exist or has moved.",
+    "home": "Back to home"
+  },
+  "days": {
+    "1": "Monday",
+    "2": "Tuesday",
+    "3": "Wednesday",
+    "4": "Thursday",
+    "5": "Friday",
+    "6": "Saturday",
+    "7": "Sunday",
+    "monSat": "Monday – Saturday",
+    "sun": "Sunday"
+  }
+}
