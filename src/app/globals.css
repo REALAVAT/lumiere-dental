@@ -1,0 +1,253 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--app-font);
+  --font-display: var(--app-display-font);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-heading: var(--app-font);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-sand: var(--sand);
+  --color-sand-strong: var(--sand-strong);
+  --color-emerald: var(--emerald);
+  --color-surface: var(--surface);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-marquee-rtl: marquee-rtl 40s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes marquee-rtl {
+    from { transform: translateX(0); }
+    to { transform: translateX(50%); }
+  }
+}
+
+/* Self-hosted and subset to the core Arabic block so /ar pages can preload it without taxing /en. */
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/ibm-plex-sans-arabic-400.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200F;
+}
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/ibm-plex-sans-arabic-500.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200F;
+}
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/ibm-plex-sans-arabic-600.woff2") format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200F;
+}
+
+html {
+  --app-font: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --app-display-font: var(--font-serif), Georgia, serif;
+}
+
+html:lang(ar) {
+  --app-font: "IBM Plex Sans Arabic", var(--font-geist), Tahoma, ui-sans-serif, system-ui, sans-serif;
+  --app-display-font: "IBM Plex Sans Arabic", var(--font-geist), Tahoma, serif;
+}
+
+:root {
+  --radius: 0.875rem;
+  --background: #faf8f5;
+  --foreground: #10201f;
+  --surface: #f3efe8;
+  --card: #ffffff;
+  --card-foreground: #10201f;
+  --popover: #ffffff;
+  --popover-foreground: #10201f;
+  --primary: #0f4c4a;
+  --primary-foreground: #f8f5f0;
+  --emerald: #13685f;
+  --secondary: #efe7db;
+  --secondary-foreground: #1c2a28;
+  --muted: #f1ede6;
+  --muted-foreground: #52605d;
+  --accent: #ebdfcc;
+  --accent-foreground: #3a2e1c;
+  --sand: #d8c3a5;
+  --sand-strong: #7a5a2c;
+  --destructive: #b42318;
+  --border: #e5ded2;
+  --input: #ddd5c8;
+  --ring: #1a7a72;
+}
+
+.dark {
+  --background: #0a1413;
+  --foreground: #edf2f0;
+  --surface: #0f1c1b;
+  --card: #102020;
+  --card-foreground: #edf2f0;
+  --popover: #102020;
+  --popover-foreground: #edf2f0;
+  --primary: #6fd0bf;
+  --primary-foreground: #05201d;
+  --emerald: #8fe0d1;
+  --secondary: #1a2b29;
+  --secondary-foreground: #edf2f0;
+  --muted: #142322;
+  --muted-foreground: #a6b5b2;
+  --accent: #2b2519;
+  --accent-foreground: #ead9bd;
+  --sand: #b49a74;
+  --sand-strong: #dcc59f;
+  --destructive: #f97066;
+  --border: rgb(255 255 255 / 0.09);
+  --input: rgb(255 255 255 / 0.14);
+  --ring: #6fd0bf;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+  }
+  ::selection {
+    background: color-mix(in oklab, var(--primary) 22%, transparent);
+  }
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold tracking-[0.18em] text-sand-strong uppercase;
+  }
+  html:lang(ar) .eyebrow {
+    @apply tracking-normal text-sm;
+  }
+  .display {
+    @apply font-semibold tracking-tight;
+  }
+  html:lang(ar) .display {
+    @apply tracking-normal;
+  }
+  .display em {
+    font-family: var(--app-display-font);
+    @apply font-normal text-primary italic;
+  }
+  html:lang(ar) .display em {
+    @apply font-semibold not-italic;
+  }
+  .glass {
+    @apply border border-white/40 bg-background/70 backdrop-blur-xl backdrop-saturate-150 dark:border-white/10 dark:bg-background/60;
+  }
+  .card-lift {
+    @apply transition-[translate,box-shadow,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-primary/25 hover:shadow-[0_20px_50px_-24px_rgb(15_76_74/0.35)] motion-reduce:transition-none motion-reduce:hover:translate-y-0;
+  }
+  .grain-bg {
+    background-image:
+      radial-gradient(60rem 30rem at 85% -10%, color-mix(in oklab, var(--sand) 35%, transparent), transparent 60%),
+      radial-gradient(50rem 30rem at -10% 10%, color-mix(in oklab, var(--primary) 12%, transparent), transparent 60%);
+  }
+}
+
+:root {
+  interpolate-size: allow-keywords;
+}
+
+.faq-item::details-content {
+  block-size: 0;
+  overflow-y: clip;
+  transition:
+    block-size 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    content-visibility 0.35s allow-discrete;
+}
+.faq-item[open]::details-content {
+  block-size: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  .faq-item::details-content {
+    transition: none;
+  }
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    translate: 0 var(--reveal-y, 24px);
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    [data-reveal] {
+      animation: reveal-in linear both;
+      animation-timeline: view();
+      animation-range: entry var(--reveal-stagger, 0px) entry calc(var(--reveal-stagger, 0px) + 160px);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
